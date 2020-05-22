@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+ <head>
+  <title>To do list</title>
+    <link rel="stylesheet" href="note.css">
+ </head>
+ <body>
+<script src="note.js">
+</script>
+<div class="lll">
+  <h1>To do list</h1>
+ <p>Add something:</p>
+ <input type="text" id="thing">
+ <p>Choose Category</p>
+ <button onclick="urgent()">Urgent</button>
+ <button onclick="important()">Important</button>
+ <button onclick="nW()">No worries</button>
+  <h3 style="background-color: darkSeaGreen;" id="nWList">No worries</h3>
+  <h3 style="background-color: khaki;" id="importantList">Important</h3>
+  <h3 style="background-color: pink;" id="urgentList">Urgent</h3>
+</div>
+ </body>
+</html>
